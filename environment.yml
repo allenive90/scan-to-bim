@@ -1,0 +1,14 @@
+name: pointcloud-lab
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - libpdal-core>=2.8,<3
+  - libpdal-e57>=2.8,<3
+  - streamlit>=1.63,<2
+  - plotly>=6,<7
+  - numpy>=2,<3
+  - laspy>=2.5,<3
+  - pyproj>=3.6,<4
+  - lazrs-python
+  - pytest>=8,<10

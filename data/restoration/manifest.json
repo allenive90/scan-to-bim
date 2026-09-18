@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "name": "Patrimonio costruito · dataset dimostrativo per il restauro",
+  "seed": 42,
+  "units": "m",
+  "crs": "local Cartesian; no EPSG",
+  "synthetic": true,
+  "scope": "Edifici storici e beni lapidei da restaurare",
+  "limitations": "Dati interamente sintetici: geometrie, colori, lacune, alterazioni e classi non derivano da rilievi reali e non costituiscono diagnosi di degrado. Il campionamento simula superfici, non la visibilità o le stazioni di uno scanner. Nessun EPSG assegnato: coordinate cartesiane locali in metri. Le classi LAS sono etichette dimostrative; E57 può non conservare Intensity e Classification.",
+  "noise_sigma_m": 0.002,
+  "outliers_per_scene": 45,
+  "classification_note": "1 bene lapideo, 2 pavimentazione, 6 edificio, 7 rumore: etichette sintetiche.",
+  "scenes": [
+    {
+      "id": "palazzo_storico",
+      "title": "Palazzo storico · facciata e copertura",
+      "description": "Edificio con portale ad arco, finestre, cornici e lacune simulate dell’intonaco.",
+      "restoration_scope": "Restauro architettonico",
+      "points": 90000,
+      "synthetic": true,
+      "units": "m",
+      "crs": "local Cartesian; no EPSG",
+      "minimum": [
+        -12.0,
+        -5.303,
+        -0.108
+      ],
+      "maximum": [
+        12.001,
+        7.0,
+        13.655
+      ],
+      "outliers": 45,
+      "limitations": "Dati interamente sintetici: geometrie, colori, lacune, alterazioni e classi non derivano da rilievi reali e non costituiscono diagnosi di degrado. Il campionamento simula superfici, non la visibilità o le stazioni di uno scanner. Nessun EPSG assegnato: coordinate cartesiane locali in metri. Le classi LAS sono etichette dimostrative; E57 può non conservare Intensity e Classification.",
+      "files": [
+        "palazzo_storico.las",
+        "palazzo_storico.laz",
+        "palazzo_storico.e57"
+      ],
+      "validation": {
+        "las": {
+          "points": 90000,
+          "bytes": 3240375,
+          "reader_verified": true
+        },
+        "laz": {
+          "points": 90000,
+          "bytes": 1092873,
+          "reader_verified": true
+        },
+        "e57": {
+          "points": 90000,
+          "bytes": 2987008,
+          "reader_verified": true
+        }
+      }
+    },
+    {
+      "id": "chiostro",
+      "title": "Chiostro · archi e colonne",
+      "description": "Due ali di un chiostro con colonnato, volte ad arco e pavimentazione lapidea.",
+      "restoration_scope": "Restauro architettonico",
+      "points": 90000,
+      "synthetic": true,
+      "units": "m",
+      "crs": "local Cartesian; no EPSG",
+      "minimum": [
+        -10.501,
+        -5.199,
+        -0.6
+      ],
+      "maximum": [
+        9.001,
+        7.0,
+        5.988
+      ],
+      "outliers": 45,
+      "limitations": "Dati interamente sintetici: geometrie, colori, lacune, alterazioni e classi non derivano da rilievi reali e non costituiscono diagnosi di degrado. Il campionamento simula superfici, non la visibilità o le stazioni di uno scanner. Nessun EPSG assegnato: coordinate cartesiane locali in metri. Le classi LAS sono etichette dimostrative; E57 può non conservare Intensity e Classification.",
+      "files": [
+        "chiostro.las",
+        "chiostro.laz",
+        "chiostro.e57"
+      ],
+      "validation": {
+        "las": {
+          "points": 90000,
+          "bytes": 3240375,
+          "reader_verified": true
+        },
+        "laz": {
+          "points": 90000,
+          "bytes": 1058345,
+          "reader_verified": true
+        },
+        "e57": {
+          "points": 90000,
+          "bytes": 2987008,
+          "reader_verified": true
+        }
+      }
+    },
+    {
+      "id": "fontana",
+      "title": "Fontana storica · bene lapideo",
+      "description": "Fontana a vasche sovrapposte con piedistallo, modanature e lacuna simulata del bordo.",
+      "restoration_scope": "Conservazione del patrimonio lapideo",
+      "points": 90000,
+      "synthetic": true,
+      "units": "m",
+      "crs": "local Cartesian; no EPSG",
+      "minimum": [
+        -4.994,
+        -5.0,
+        -0.477
+      ],
+      "maximum": [
+        4.998,
+        5.002,
+        4.502
+      ],
+      "outliers": 45,
+      "limitations": "Dati interamente sintetici: geometrie, colori, lacune, alterazioni e classi non derivano da rilievi reali e non costituiscono diagnosi di degrado. Il campionamento simula superfici, non la visibilità o le stazioni di uno scanner. Nessun EPSG assegnato: coordinate cartesiane locali in metri. Le classi LAS sono etichette dimostrative; E57 può non conservare Intensity e Classification.",
+      "files": [
+        "fontana.las",
+        "fontana.laz",
+        "fontana.e57"
+      ],
+      "validation": {
+        "las": {
+          "points": 90000,
+          "bytes": 3240375,
+          "reader_verified": true
+        },
+        "laz": {
+          "points": 90000,
+          "bytes": 973601,
+          "reader_verified": true
+        },
+        "e57": {
+          "points": 90000,
+          "bytes": 2987008,
+          "reader_verified": true
+        }
+      }
+    }
+  ]
+}
